@@ -1,0 +1,7 @@
+Very simple utility to bring some darkness to the search results page of Bing. 
+
+Web-dev is far from my strength; this is very crude and very likely to break. I don't really know how to properly create a chrome extension so as of initial completeness extensions require developer mode. Signing with the private key still seems to create a CRX error. Somebody else probably knows how to fix it in 5 seconds. 
+
+This ties into Bing's div and class ID names and therefore will break whenever Bing updates these names. There may be a better way to do this but I don't know what it is. 
+
+If, on the off chance, somebody other than me uses this, I am open to any and all improvements including nuking this and using a better, existing utility. 

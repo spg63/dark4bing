@@ -1,0 +1,28 @@
+{
+    "manifest_version": 2,
+    "name": "dark4bing",
+    "version": "0.1",
+
+    "description": "Changes Bing's background color to a darker shade.",
+    "author": "Sean Grimes - sean@seanpgrimes.com", 
+    "homepage_url": "https://seanpgrimes.com",
+
+    "browser_action": {
+        "default_icon": "icon.png"
+    },
+    "permissions": [
+        "activeTab"
+    ],
+
+    "content_scripts": [
+        {
+            "matches": [
+                "https://*.bing.com/search*",
+                "http://*.bing.com/search*"
+            ],
+            "js": [
+                "bgChange.js"
+            ]
+        }
+    ]
+}
